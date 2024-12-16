@@ -13,7 +13,7 @@
 .header__img {
   width: 100%;
 }
-.header .info {
+.header.info {
   font-family: fantasy, cursive;
 }
 
@@ -136,15 +136,15 @@
 }
 
 /* Edit Task */
-.list.list__item .input[type=text] {
+.task.input[type=text] {
   display: none;
 }
 
-.list.list__item.edit-mode .input[type=text] {
+.edit-mode .task.input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list.list__item.edit-mode .label {
+.edit-mode .label {
   display: none;
 }
